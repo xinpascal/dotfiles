@@ -5,6 +5,7 @@ style "default" {
 
   # Style Properties
 
+  GtkMenuButton:height = 50
   GtkWidget::focus-line-width = 1
   GtkMenuBar::window-dragging = 1
   GtkToolbar::window-dragging = 1

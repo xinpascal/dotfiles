@@ -5006,8 +5006,8 @@ headerbar button {
   min-height: 20px;
   min-width: 16px;
  padding: 1px 4px 1px 4px;
-  margin-top: 1px;
-  margin-bottom: 4px;
+  margin-top: 2px;
+  margin-bottom: 2px;
   border-right-color: rgba(0,0,0,0.12);
   border-left-color: rgba(0,0,0,0.12);
   border-bottom-color: rgba(0, 0, 0, 0.18);
@@ -5119,8 +5119,8 @@ headerbar button.text-button {
   background-color: white;
   background-image: linear-gradient(to bottom, rgba(255,255,255,1),
                                              rgba(235,235,235,1));
-  margin-top: 1px;
-  margin-bottom: 4px;
+  margin-top: 2px;
+  margin-bottom: 2px;
  padding: 1px 12px 1px 12px;
   border-right-color: rgba(0,0,0,0.12);
   border-left-color: rgba(0,0,0,0.12);
@@ -5169,8 +5169,8 @@ headerbar button.text-button.image-button{
   background-color: white;
   background-image: linear-gradient(to bottom, rgba(255,255,255,1),
                                              rgba(235,235,235,1));
-   margin-top: 1px;
-  margin-bottom: 4px;
+   margin-top: 2px;
+  margin-bottom: 2px;
   padding: 1px 8px 1px 8px;
   border-right-color: rgba(0,0,0,0.12);
   border-left-color: rgba(0,0,0,0.12);
@@ -5214,8 +5214,8 @@ headerbar button.image-button{
   background-image: linear-gradient(to bottom, rgba(255,255,255,1),
                                              rgba(235,235,235,1));
   font-weight: normal;
-  margin-top: 1px;
-  margin-bottom: 4px;
+  margin-top: 2px;
+  margin-bottom: 2px;
   padding: 1px 8px 1px 8px;
   border-right-color: rgba(0,0,0,0.12);
   border-left-color: rgba(0,0,0,0.12);
@@ -5450,8 +5450,8 @@ headerbar .linked:not(.vertical).path-bar > button {
   border-color:rgba(0, 0, 0, 0.12);
   border-bottom-color: rgba(0, 0, 0, 0.25);
   border-top-color: rgba(0, 0, 0, 0.06);
-  margin-top: 1px;
-  margin-bottom: 4px;
+  margin-top: 2px;
+  margin-bottom: 2px;
   border-radius: 0;
   border-right-style: none;}
 
@@ -5660,8 +5660,8 @@ headerbar .linked:not(.vertical):not(.path-bar) > button{
   border-bottom-color: rgba(0, 0, 0, 0.18);
   border-top-color: rgba(0, 0, 0, 0.08);
   padding: 1px 6px 1px 6px;
-  margin-top: 1px;
-  margin-bottom: 4px;
+  margin-top: 2px;
+  margin-bottom: 2px;
   margin-right:1px;}
   
 headerbar .linked:not(.vertical):not(.path-bar) > button:hover{
@@ -5814,8 +5814,8 @@ headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button{
   padding: 1px 4px 1px 4px;
   margin-left:1px;
   margin-right:1px;
-  margin-top: 1px;
-  margin-bottom: 4px;
+  margin-top: 2px;
+  margin-bottom: 2px;
   border: 1px solid;
   
   border-right-color: rgba(0,0,0,0.12);
@@ -12506,6 +12506,12 @@ margin-bottom: -1px;
   -gtk-icon-transform:scale(0.72);}
 
 
+
+#XfcePanelWindow button >box,
+#XfcePanelWindow button >label {
+  padding-left: 5px;
+  padding-right: 5px;
+}
 
 
 
