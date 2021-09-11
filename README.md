@@ -23,3 +23,7 @@
 ## VNC
 
 Use xfce4 as desktop.
+
+## Firefox
+
+* Theme from: https://github.com/vinceliuice/WhiteSur-gtk-theme

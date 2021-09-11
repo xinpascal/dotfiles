@@ -1,6 +1,6 @@
 #!/bin/sh
 
-dotdirs="config fonts icons themes vnc"
+dotdirs="config fonts icons themes vnc mozilla"
 
 for dir in $dotdirs; do
 	mkdir -p ~/.$dir
