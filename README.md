@@ -13,6 +13,10 @@
 * La-Capitaine: https://github.com/keeferrourke/la-capitaine-icon-theme
 * Os-Catalina: https://github.com/zayronxio/Os-Catalina-icons
 
+## Cursor
+
+* macOSBigSur: https://github.com/ful1e5/apple_cursor
+
 ## Fonts
 
 * Nerd patched fonts: https://github.com/40huo/Patched-Fonts.git
