@@ -11,8 +11,7 @@ dotfiles=".Xclients"
 cp -rf $dotfiles ~/
 
 for d in ~/.mozilla/firefox/*default*; do
-    if [[ -f "${d}/prefs.js" ]]; then
-      rm -rf                                                                                  "${d}/chrome"
+    if [ -f "${d}/prefs.js" ]; then
       ln -sf ../firefox-themes                                                                "${d}/chrome"
       echo "user_pref(\"toolkit.legacyUserProfileCustomizations.stylesheets\", true);" >>     "${d}/prefs.js"
       echo "user_pref(\"browser.tabs.drawInTitlebar\", true);" >>                             "${d}/prefs.js"

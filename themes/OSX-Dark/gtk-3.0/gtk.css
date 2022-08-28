@@ -4376,7 +4376,7 @@ headerbar button {
   border-color: rgba(0,0,0,0.7);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #67686a 2px, #67686a,#626366);
-  margin-top: 1px;
+  margin-top: 5px;
   margin-bottom: 4px;}
 
 headerbar button:hover {
@@ -4461,7 +4461,7 @@ headerbar button.text-button {
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #67686a 2px, #67686a,#626366);
   padding: 1px 12px 1px 12px;
-  margin-top: 1px;
+  margin-top: 5px;
   margin-bottom: 4px;}
 
 headerbar button.text-button:hover {
@@ -4511,7 +4511,7 @@ headerbar button.text-button.image-button{
   border-color: rgba(0,0,0,0.7);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #67686a 2px, #67686a,#626366);
-  margin-top: 1px;
+  margin-top: 5px;
   margin-bottom: 4px;}
 
 headerbar button.text-button.image-button:hover{
@@ -4563,7 +4563,7 @@ headerbar button.image-button{
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #67686a 2px, #67686a,#626366);
   padding: 1px 8px 1px 8px;
-  margin-top: 1px;
+  margin-top: 5px;
   margin-bottom: 4px;}
 
 headerbar button.image-button:hover{
@@ -4753,7 +4753,7 @@ headerbar .linked:not(.vertical).path-bar > button {
   padding: 1px 4px 1px 4px;
   border-color: rgba(0,0,0,0.7);
   border-radius: 0;
-  margin-top: 1px;
+  margin-top: 5px;
   margin-bottom: 4px;
   border-right-style: none;}
 
@@ -5017,7 +5017,7 @@ headerbar .linked:not(.vertical):not(.path-bar) > button{
   border-color: rgba(0,0,0,0.7);
   border-radius: 0px;
   padding: 1px 6px 1px 6px;
-  margin-top: 1px;
+  margin-top: 5px;
   margin-bottom: 4px;
   margin-right:1px;
   }
@@ -5129,7 +5129,7 @@ headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button{
   border-color: rgba(0,0,0,0.6);
   background-color: transparent;
   background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #67686a 2px, #67686a,#626366);
-  margin-top: 1px;
+  margin-top: 5px;
   margin-bottom: 4px;}
 
 headerbar .linked:not(.vertical):not(.path-bar).stack-switcher > button:hover{
@@ -12103,12 +12103,10 @@ background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 0.8px,#7a7b7c 0.8px,
   background-image: image(#000000); }
 
 
-
 #XfcePanelWindow button >box,
 #XfcePanelWindow button >label {
   padding-left: 5px;
   padding-right: 5px;
 }
-
 
 
