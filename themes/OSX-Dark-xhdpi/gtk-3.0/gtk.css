@@ -11663,6 +11663,24 @@ headerbar .linked:not(.vertical):not(.path-bar) > button:only-child {
   
   border-radius: 5px;}
 
+headerbar toolitem entry,
+headerbar toolitem entry:focus,
+headerbar box entry,
+headerbar box entry:focus {
+  margin-top: 6px;
+  margin-bottom: 4px;
+}
+
+headerbar .linked:not(.vertical):not(.path-bar) > button:first-child {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+headerbar .linked:not(.vertical):not(.path-bar) > button:last-child {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
 /******XFCE-panel**********/
 
 /*XfceHeading {
